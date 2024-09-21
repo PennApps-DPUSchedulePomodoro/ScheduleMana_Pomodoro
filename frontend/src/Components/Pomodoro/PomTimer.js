@@ -69,7 +69,6 @@ const PomodoroTimer = () => {
 
     return (
         <div className="pomodoro-timer">
-            <h2>{isWorkSession ? "Work Session" : "Break Session"}</h2>
             <div className="time-display">
                 <h1>{formatTime(timeLeft)}</h1>
             </div>
@@ -77,15 +76,15 @@ const PomodoroTimer = () => {
             <div className="controls">
                 {!isRunning ? (
                     <button onClick={startTimer} className="action-btn">
-                        <FontAwesomeIcon icon={faPlayCircle} size="2x" />
+                        <FontAwesomeIcon icon={faPlayCircle} size="2x"/>
                     </button>
                 ) : (
                     <button onClick={pauseTimer} className="action-btn">
-                        <FontAwesomeIcon icon={faPauseCircle} size="2x" />
+                        <FontAwesomeIcon icon={faPauseCircle} size="2x"/>
                     </button>
                 )}
                 <button onClick={resetTimer} className="action-btn">
-                    <FontAwesomeIcon icon={faRedoAlt} size="2x" />
+                    <FontAwesomeIcon icon={faRedoAlt} size="2x"/>
                 </button>
             </div>
 
@@ -114,6 +113,8 @@ const PomodoroTimer = () => {
                 </label>
             </div>
         </div>
+
+
     );
 };
 

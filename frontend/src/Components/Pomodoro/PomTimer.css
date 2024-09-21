@@ -1,14 +1,11 @@
 .pomodoro-timer {
-    position: fixed; /* Position it in a fixed location */
-    bottom: 20px;    /* Place it 20px from the bottom */
-    right: 20px;     /* Place it 20px from the right */
-    background-color: #f0f0f0; /* Lighter background */
     padding: 15px;   /* Reduce padding */
     border-radius: 10px; /* Rounded corners */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-    width: 220px;    /* Reduced width */
-    font-size: 14px; /* Smaller font */
+    width: 50%;
+    font-size: 30px; /* Smaller font */
     z-index: 1000;   /* Ensure it stays above other elements */
+    align-items: center;
+    justify-content: center;
 }
 
 .time-display {

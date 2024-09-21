@@ -1,6 +1,6 @@
 const CustomError = require('./errorHandling'); // Ensure the path to CustomError is
 
-const BASE_URL = process.env.BASE_URL || 'http://localhost:5005';
+const BASE_URL = process.env.BASE_URL || 'http://localhost:8000';
 
 async function makeRequest(options) {
     const { method, url, headers, body, params } = options;
