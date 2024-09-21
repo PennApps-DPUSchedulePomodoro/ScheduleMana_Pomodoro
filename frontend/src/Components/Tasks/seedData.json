@@ -1,0 +1,31 @@
+
+[
+  {
+    "name": "Math Homework",
+    "description": "Complete exercises from Chapter 5 on algebra.",
+    "category": "Math",
+    "priority": "High",
+    "dueDate": "2023-10-01 23:59:59",
+    "status": "In Progress",
+    "timeSpent": 1800
+  },
+  {
+    "name": "Science Project",
+    "description": "Research on renewable energy for the science fair.",
+    "category": "Science",
+    "priority": "Medium",
+    "dueDate": "2023-10-05 17:00:00",
+    "status": "Not Started",
+    "timeSpent": 0
+  },
+  {
+    "name": "History Essay",
+    "description": "Write an essay on World War II.",
+    "category": "History",
+    "priority": "High",
+    "dueDate": "2023-10-10 23:59:59",
+    "status": "Not Started",
+    "timeSpent": 0
+  }
+]
+
