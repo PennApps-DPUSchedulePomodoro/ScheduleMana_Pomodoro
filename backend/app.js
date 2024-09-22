@@ -97,7 +97,9 @@ app.post("/processSchedule", async (req, res) => {
   const prompt = `
   Given my schedule for the day looks like this in JSON format:
   ${JSON.stringify(schedule)}
-  Analyze how my day looks like, see which tasks you I prioritize and which ones I should reschedule. Rearrange to give me the optimize schedule in JSON format in descending order base on priority and only return the optimized schedule as JSON and do not return anythign else.
+  Analyze how my day looks like, see which tasks you I prioritize and which ones I should reschedule. 
+  Rearrange to give me the optimize schedule in JSON format in descending order 
+  base on priority and only return the answer as JSON format without any other word - as we will parse your answer further for coding purpose
 `;
 
   /*
@@ -110,7 +112,8 @@ app.post("/processSchedule", async (req, res) => {
       model: "llama3.1-70b",
     });
     console.log("Response from LLM:", response.choices[0].message.content);
-    res.json({ optimizedSchedule: response.choices[0].message.content });
+    optimizedSchedule = JSON.parse(response.choices[0].message.content);
+    res.json({ optimizedSchedule });
   } catch (error) {
     console.error("Error calling API:", error);
     res.status(500).send("Error calling API");
