@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "task_name": "Submit Final Project Report",
+    "due_date": "2024-10-01T23:59:00",
+    "priority": "high",
+    "status": "pending"
+  },
+  {
+    "id": 2,
+    "task_name": "Team Presentation",
+    "due_date": "2024-10-03T10:00:00",
+    "priority": "medium",
+    "status": "in-progress"
+  },
+  {
+    "id": 3,
+    "task_name": "Complete Code Documentation",
+    "due_date": "2024-09-30T17:00:00",
+    "priority": "low",
+    "status": "completed"
+  },
+  {
+    "id": 4,
+    "task_name": "Review Client Feedback",
+    "due_date": "2024-10-02T15:00:00",
+    "priority": "high",
+    "status": "pending"
+  },
+  {
+    "id": 5,
+    "task_name": "Prepare for Midterm Exams",
+    "due_date": "2024-10-05T23:59:00",
+    "priority": "medium",
+    "status": "pending"
+  },
+  {
+    "id": 6,
+    "task_name": "Submit Bug Fixes",
+    "due_date": "2024-09-29T12:00:00",
+    "priority": "high",
+    "status": "completed"
+  },
+  {
+    "id": 7,
+    "task_name": "Finalize Marketing Materials",
+    "due_date": "2024-10-04T18:00:00",
+    "priority": "medium",
+    "status": "in-progress"
+  },
+  {
+    "id": 8,
+    "task_name": "Release Product Update",
+    "due_date": "2024-10-07T09:00:00",
+    "priority": "high",
+    "status": "pending"
+  },
+  {
+    "id": 9,
+    "task_name": "Draft Blog Post for Website",
+    "due_date": "2024-10-08T14:00:00",
+    "priority": "low",
+    "status": "pending"
+  },
+  {
+    "id": 10,
+    "task_name": "Plan Company Offsite",
+    "due_date": "2024-10-09T12:00:00",
+    "priority": "low",
+    "status": "pending"
+  }
+]
