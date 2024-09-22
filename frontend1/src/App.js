@@ -55,7 +55,6 @@ const App = () => {
         </Button>
       ) : (
         <>
-          <Typography variant="h5">Hello World</Typography>
           <DashboardLayoutAccount />
         </>
       )}
