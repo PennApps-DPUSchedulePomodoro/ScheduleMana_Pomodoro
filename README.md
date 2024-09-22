@@ -13,14 +13,16 @@ License
 
 ### **Description**
 
-The **SmartScedule** website provides a simple interface for users to organize their tasks, manage time, and enhance productivity using the Pomodoro Technique. This app is especially useful for students and professionals who want to stay focused and maximize their workflow. It was built as part of the PennApps hackathon to demonstrate effective time management.  
+The **SmartScedule** website provides a simple interface for users to organize their tasks, manage time, and enhance productivity using the Pomodoro Technique. This app is especially useful for students and professionals who want to stay focused and maximize their workflow. It was built as part of the PennApps hackathon to demonstrate effective time management.
+
+How it works:
+The app gonna retrieve your calendar from the Google Calendar API, and parse it into cerebras API LLM to generate the most optimized schedule throughout the day base on prompt engineering and sorting algorithms. It guarantee you the most productivity as well as the most events you can attend. After each week, month, a custom report will be generated using a model based on BERT to display your scheduling metrics of the given time range.
 
 **Motivation:** The idea was to build a user-friendly tool to help people combine the benefits of the Pomodoro Technique with detailed task scheduling to boost productivity.
 
 **Technologies Used:**
 
 React for frontend  
-Node.js for backend  
 MongoDB for data storage   
 Express.js for API handling    
 
