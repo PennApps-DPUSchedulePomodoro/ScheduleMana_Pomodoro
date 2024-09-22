@@ -99,7 +99,12 @@ app.post("/processSchedule", async (req, res) => {
   ${JSON.stringify(schedule)}
   Analyze how my day looks like, see which tasks you I prioritize and which ones I should reschedule. 
   Rearrange to give me the optimize schedule in JSON format in descending order 
-  base on priority and only return the answer as JSON format without any other word - as we will parse your answer further for coding purpose
+  base on priority and only return the answer as JSON format without any other word - as we will parse your answer further for coding. Please follow 
+  this json format:
+  [{summary:
+  , start: , 
+  end: , 
+  priority: }] 
 `;
 
   /*
